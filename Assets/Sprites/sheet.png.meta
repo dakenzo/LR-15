@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -107,6 +109,30 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -5842,17 +5868,18 @@ TextureImporter:
       sheet_64: -511424756
       sheet_250: -600136173
       sheet_128: -678722474
+      sheet_245: 504287916
       sheet_155: 1348823415
       sheet_145: -1997405492
       sheet_44: -330044377
-      sheet_75: -1153300646
       sheet_29: 516159133
-      sheet_148: 1597253778
+      sheet_75: -1153300646
       sheet_138: -253846717
-      sheet_183: 2103372059
+      sheet_148: 1597253778
       sheet_13: 1946874970
-      sheet_88: 2049077322
+      sheet_183: 2103372059
       sheet_205: -160311909
+      sheet_88: 2049077322
       sheet_142: -1762105591
       sheet_234: 552746663
       sheet_156: 626981673
@@ -5866,18 +5893,17 @@ TextureImporter:
       sheet_96: 377484070
       sheet_269: 1517887466
       sheet_189: -947799997
-      sheet_245: 504287916
       sheet_182: -1213644924
       sheet_26: 1615957164
       sheet_229: -1020713334
       sheet_14: 297335406
       sheet_93: 1516178414
       sheet_255: -720320225
-      sheet_53: 1420421860
       sheet_99: 1130705104
       sheet_176: -428336076
-      sheet_261: 1637454039
       sheet_259: -1992586886
+      sheet_53: 1420421860
+      sheet_261: 1637454039
       sheet_141: 1711693517
       sheet_69: 1859200475
       sheet_268: -1627943124
@@ -5958,11 +5984,9 @@ TextureImporter:
       sheet_33: -2740634
       sheet_30: -1248192257
       sheet_82: -102152070
-      sheet_217: -2082332136
       sheet_262: 1232796914
       sheet_70: -601077614
       sheet_25: 926892831
-      sheet_222: -287103358
       sheet_228: -1420575889
       sheet_119: -1410759251
       sheet_225: 937051591
@@ -5971,11 +5995,13 @@ TextureImporter:
       sheet_7: -1776435688
       sheet_37: 804898081
       sheet_237: 1183369229
+      sheet_217: -2082332136
       sheet_215: 1669298986
       sheet_246: -109377578
       sheet_95: 204590938
       sheet_67: 2052007462
       sheet_80: -1531984168
+      sheet_222: -287103358
       sheet_22: -949931912
       sheet_236: 412667845
       sheet_56: -1028919726
@@ -6069,7 +6095,6 @@ TextureImporter:
       sheet_265: 194851618
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

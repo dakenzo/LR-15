@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -107,6 +109,30 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1452,12 +1478,10 @@ TextureImporter:
     nameFileIdTable:
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_24: 855709266
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_7: 1854184323
-      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_55: -1021251915
+      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_61: 221988939
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_37: -930090554
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_16: -2146608112
-      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_61: 221988939
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_32: 99693821
-      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_54: 1507325696
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_36: -717905460
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_42: 934245580
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_33: 894298587
@@ -1484,10 +1508,10 @@ TextureImporter:
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_12: 1387066017
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_47: -2092812397
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_20: 776792021
-      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_22: -1795290133
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_26: -1245348620
-      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_51: 1615472933
+      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_22: -1795290133
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_53: -1518899461
+      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_51: 1615472933
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_23: 1780461050
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_6: -484259509
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_35: 1430255579
@@ -1504,18 +1528,19 @@ TextureImporter:
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_38: -159136366
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_39: 435238493
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_0: -1152607929
-      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_2: 1286045394
+      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_54: 1507325696
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_28: 275492339
+      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_2: 1286045394
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_45: 226334352
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_21: -397766138
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_49: -508428621
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_40: -1928907288
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_58: -1419740607
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_9: -926767456
+      png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_55: -1021251915
       png-clipart-the-legend-of-zelda-link-sprite-2d-computer-graphics-unity-animation-sprite-game-3d-computer-graphics_46: 1567935482
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
